@@ -1,5 +1,5 @@
 # lineageos-bullhead-build
-Unofficial LineageOS 15.1 builds for Google Nexus 5X "bullhead" devices.
+Unofficial automated LineageOS 15.1 builds (and releases) for Google Nexus 5X "bullhead" devices.
 
 Build was created following the official generic auto-generated
 LineageOS wiki instructions specific to the bullhead device:
