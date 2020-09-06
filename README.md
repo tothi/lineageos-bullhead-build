@@ -1,6 +1,8 @@
 # lineageos-bullhead-build
 Unofficial automated LineageOS 15.1 builds (and releases) for Google Nexus 5X "bullhead" devices.
 
+Builds and upcoming releases are **scheduled weekly**.
+
 Build was created following the official generic auto-generated
 LineageOS wiki instructions specific to the bullhead device:
 
@@ -32,3 +34,8 @@ fastboot reboot-bootloader
 Installation method of the release zip package is recommended
 by adb sideloading (as described in the
 [original LineageOS bullhead install instructions](https://wiki.lineageos.org/devices/bullhead/install)).
+
+Once the system is in the unofficial branch,
+upgrades could be performed easily by simply downloading the release
+zip package, rebooting in [TWRP recovery](https://twrp.me/lg/lgnexus5x.html)
+and simply installing (tested with TWRP 3.2.3-0).
