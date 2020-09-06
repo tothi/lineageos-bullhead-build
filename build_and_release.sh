@@ -17,8 +17,8 @@ cd $OUT
 # releasing
 
 repo_full_name="tothi/lineageos-bullhead-build"
-date=`date +%Y%m%d`
-version="lineage-15.1-${date}-UNOFFICIAL-bullhead"
+version="lineage-$(get_build_var LINEAGE_VERSION)"
+date=`echo $version | cut -d- -f3`
 text="Unofficial automated build. Use at your own risk!"
 branch="master"
 
