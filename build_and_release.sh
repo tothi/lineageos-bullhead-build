@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# for running in crontab
+export USER=`whoami`
+
 # (re)building
 
 make clobber
