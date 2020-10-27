@@ -11,6 +11,9 @@ https://wiki.lineageos.org/devices/bullhead/build
 Source code is the official
 [lineage-15.1 branch of the LineageOS repo](https://github.com/LineageOS/android/tree/lineage-15.1).
 
+Since release lineage-15.1-20201027-UNOFFICIAL-bullhead, the kernel
+is [patched for USB HID device support](https://github.com/pelya/android-keyboard-gadget), so the Nexus 5X device is working as an USB keyboard attached to the PC.
+
 **Use at your own risk!**
 
 > WARNING: Upgrading your device from the official LineageOS builds
