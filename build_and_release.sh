@@ -6,7 +6,7 @@ export USER=`whoami`
 # (re)building
 
 make clobber
-repo sync
+repo sync --force-sync
 source build/envsetup.sh
 breakfast bullhead
 export USE_CCACHE=1
