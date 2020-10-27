@@ -7,6 +7,8 @@ export USER=`whoami`
 
 make clobber
 repo sync --force-sync
+wget https://raw.githubusercontent.com/pelya/android-keyboard-gadget/master/patches/existing_tested/by-manufacturer-and-device-codename/google____bullhead_______kernel_3.10.patch -O google____bullhead_______kernel_3.10.patch
+patch -d kernel/lge/bullhead/ -p1 < google____bullhead_______kernel_3.10.patch
 source build/envsetup.sh
 breakfast bullhead
 export USE_CCACHE=1
