@@ -1,6 +1,8 @@
 # lineageos-bullhead-build
 Unofficial automated LineageOS 15.1 builds (and releases) for Google Nexus 5X "bullhead" devices.
 
+UPDATE: As of 25-Jul-2021, stopped the building process. After >5 yrs with the Nexus 5X, switched to a new phone and stopping the builds.
+
 Builds and upcoming releases are **scheduled weekly**.
 
 Build was created following the official generic auto-generated
